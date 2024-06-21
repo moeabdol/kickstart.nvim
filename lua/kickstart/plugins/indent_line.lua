@@ -5,5 +5,11 @@ return {
     -- See `:help ibl`
     main = 'ibl',
     opts = {},
+    config = {
+      scope = {
+        show_start = false,
+        show_end = false,
+      },
+    },
   },
 }
